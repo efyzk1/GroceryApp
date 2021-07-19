@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "889023815140",
+    "project_id": "cheapicker-5a292",
+    "storage_bucket": "cheapicker-5a292.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889023815140:android:39909947b7e9f3f7707bf1",
+        "android_client_info": {
+          "package_name": "com.example.cheapicker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "889023815140-jinrn1c8g8ospb2shajdcg51iqhg2qml.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cheapicker",
+            "certificate_hash": "9a2481226ff6e21a574c9fc920bee05db9671271"
+          }
+        },
+        {
+          "client_id": "889023815140-molbjni53ht7ee5j0qiphkso5lno9mil.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDKZZ37BNDD17esXQJDM1EulOqgHReYLI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "889023815140-molbjni53ht7ee5j0qiphkso5lno9mil.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

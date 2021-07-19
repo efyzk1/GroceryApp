@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Mall"
+        android:id="@+id/FirstActivity"
+        android:icon="@drawable/ic_baseline_store_mall_directory_24" />
+    <item
+        android:title="Grocery"
+        android:id="@+id/LaunchActivity"
+        android:icon="@drawable/ic_baseline_local_grocery_store_24"/>
+    <item
+        android:id="@+id/ThirdActivity"
+        android:title="Cart"
+        android:icon="@drawable/ic_baseline_favorite_24"/>
+    <item
+        android:id="@+id/ForthActivity"
+        android:title="Account"
+        android:icon="@drawable/account"/>
+</menu>
