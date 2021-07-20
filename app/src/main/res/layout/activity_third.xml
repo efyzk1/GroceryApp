@@ -7,12 +7,14 @@
     tools:context=".ThirdActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Third activity"
-        android:textSize="50dp"
-        android:textColor="@color/black"
-        android:layout_centerInParent="true"/>
+        android:layout_centerInParent="true"
+        android:text=" Shopping Cart"
+        android:textColor="@color/purple_700"
+        android:textSize="30dp"
+        android:textStyle="bold" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"
@@ -27,5 +29,13 @@
         app:itemIconTint="@drawable/selector"
         app:menu="@menu/bottom_menu"
         />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/purple_700"
+        android:text="Remove items"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

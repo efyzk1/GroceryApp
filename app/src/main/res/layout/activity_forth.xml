@@ -9,10 +9,74 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Forth activity"
-        android:textSize="50dp"
-        android:textColor="@color/black"
+        android:text="Account"
+        android:id="@+id/Greeting"
+        android:textSize="30dp"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"
         android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailAddressTitle"
+        android:text="Email Address:"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/Greeting"
+        app:layout_constraintLeft_toLeftOf="@+id/Greeting"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailAddress"
+        app:layout_constraintTop_toBottomOf="@+id/emailAddressTitle"
+        app:layout_constraintLeft_toLeftOf="@+id/emailAddressTitle"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"/>
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/fullNameTitle"
+    android:text="Full name:"
+    android:textStyle="bold"
+    app:layout_constraintTop_toBottomOf="@+id/emailAddress"
+    app:layout_constraintLeft_toLeftOf="@+id/Greeting"
+    android:layout_marginTop="20dp"
+    android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fullName"
+        app:layout_constraintTop_toBottomOf="@+id/fullNameTitle"
+        app:layout_constraintLeft_toLeftOf="@+id/emailAddressTitle"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/passwordTitle"
+        android:text="Password:"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/fullName"
+        app:layout_constraintLeft_toLeftOf="@+id/fullNameTitle"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        app:layout_constraintTop_toBottomOf="@+id/passwordTitle"
+        app:layout_constraintLeft_toLeftOf="@+id/fullNameTitle"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"/>
+
+
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"
@@ -27,5 +91,20 @@
         app:itemIconTint="@drawable/selector"
         app:menu="@menu/bottom_menu"
         />
+
+    <Button
+        android:id="@+id/signOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/purple_700"
+        android:text="Log Out"
+        android:textColor="#ffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/bottomNavigation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/passwordTitle" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

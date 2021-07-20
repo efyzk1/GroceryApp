@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void login(View view){
-        startActivity(new Intent(MainActivity.this,LaunchActivity.class));
+        startActivity(new Intent(MainActivity.this,LoginActivity.class));
     }
 
     public  void registration(View view){

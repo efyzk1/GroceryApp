@@ -1,4 +1,4 @@
-package com.example.cheapicker.models;
+package com.example.cheapicker;
 
 public class UserModel {
     String name;
